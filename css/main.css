@@ -64,8 +64,11 @@ img {
 *
 */
 
-.featured_work {
-    max-height: 15vh;
+.feat_work {
+    font-size: 2em;
+    color: #7d97ad;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .mycaption {
