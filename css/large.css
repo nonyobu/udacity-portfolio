@@ -1,3 +1,19 @@
+/*******************************************************
+*
+* Styles for media query with screen over 960 px
+*
+*******************************************************/
+
 .logo {
-    width: 3.5em;
+    width: 6em;
+}
+
+.title_name {
+    font-weight: 400;
+    font-size: 2.4em;
+}
+
+.subtitle_name {
+    font-weight: 300;
+    font-size: 2em;
 }

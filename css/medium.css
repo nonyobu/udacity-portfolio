@@ -1,3 +1,25 @@
+/*******************************************************
+*
+* Styles for media query with screen over 540 px
+*
+*******************************************************/
+
+
+/*
+*
+*
+* Header
+*
+*/
+
 .logo {
-    width: 3em;
+    width: 5em;
+}
+
+.title_name {
+    font-size: 2em;
+}
+
+.subtitle_name {
+    font-size: 1.6em;
 }

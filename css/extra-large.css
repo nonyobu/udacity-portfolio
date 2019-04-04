@@ -1,3 +1,9 @@
+/*******************************************************
+*
+* Styles for media query with screen over 1200 px
+*
+*******************************************************/
+
 .large_container {
     width: 1200px;
     margin-left: auto;

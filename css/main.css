@@ -1,7 +1,76 @@
-.logo {
-    width: 2.5em;
+/*******************************************************
+*
+* Default styles aiming at smaller screens
+*
+*******************************************************/
+
+
+/*
+*
+*
+* Page styles
+*
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.jumbotron {
+.large_container {
+    margin-top: 2vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*
+*
+*
+* Header
+*
+*/
+
+.logo {
+    width: 4em;
+}
+
+.title {
     text-transform: uppercase;
+    text-align: right;
+    color: #2d3c49;
+}
+
+.title_name {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.subtitle_name {
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.title_divisor {
+    border: 1px solid #2d3c49;
+}
+
+
+/*
+*
+*
+* Featured work
+*
+*/
+
+.featured_work {
+    max-height: 15vh;
+}
+
+.mycaption {
+    text-transform: uppercase;
+    text-align: center;
+    color: #2d3c49;
+    font-size: 1em;
 }
