@@ -16,10 +16,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.large_container {
-    margin-top: 2vh;
-}
-
 img {
     max-width: 100%;
 }
@@ -33,27 +29,40 @@ img {
 */
 
 .logo {
-    width: 4em;
+    width: 3em;
 }
 
-.title {
+
+/*
+*
+*
+* Jumbotron
+*
+*/
+
+.jumbotron {
+    background-image: url(../img/img01.jpg);
+    background-size: cover;
+    height: 100%;
+    min-height: 40vh;
+}
+
+.text {
     text-transform: uppercase;
     text-align: right;
-    color: #2d3c49;
+    padding: 10px;
+    color: #02b3e4;
+    background-color: rgba(45, 60, 73, 0.75);
 }
 
-.title_name {
-    font-weight: 300;
+.text h2 {
+    font-weight: 400;
     font-size: 1.2em;
 }
 
-.subtitle_name {
-    font-weight: 200;
-    font-size: .8em;
-}
-
-.title_divisor {
-    border: 1px solid #2d3c49;
+.text p {
+    font-weight: 300;
+    font-size: 1em;
 }
 
 

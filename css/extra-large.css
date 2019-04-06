@@ -4,6 +4,9 @@
 *
 *******************************************************/
 
+
+/* Avoid page resize above 1200px */
+
 .large_container {
     width: 1200px;
     margin-left: auto;

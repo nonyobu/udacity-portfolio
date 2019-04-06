@@ -5,15 +5,27 @@
 *******************************************************/
 
 .logo {
-    width: 6em;
+    width: 5em;
 }
 
-.title_name {
-    font-weight: 400;
+
+/*
+*
+*
+* Jumbotron
+*
+*/
+
+.text {
+    padding: 50px;
+}
+
+.text h2 {
+    font-weight: 500;
     font-size: 2.4em;
 }
 
-.subtitle_name {
-    font-weight: 300;
+.text p {
+    font-weight: 400;
     font-size: 2em;
 }

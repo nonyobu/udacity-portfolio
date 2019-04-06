@@ -21,43 +21,66 @@
 </head>
 
 <body>
+    <!-- Main container that acts as helper for larger screens -->
     <div class="large_container">
 
         <header>
             <div class="container-fluid">
-                <div class="row align-middle">
-                    <div class="col-6">
-                        <img src="img/udacity_logo.svg" class="logo" alt="Udacity Logo">
+                <!-- Navigation -->
+                <nav class="navbar navbar-expand-md navbar-dark static-top" style="background-color: rgba(45, 60, 73, 0.75);">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#home">
+                            <img src="img/udacity_logo.svg" class="logo" alt="Udacity Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#home">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#work">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-6 title">
-                        <h1 class="title_name">Jane Doette</h1>
-                        <p class="subtitle_name">Front-End Ninja</p>
-                    </div>
-                </div>
-                <hr class="title_divisor">
+                </nav>
             </div>
         </header>
 
         <main>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="https://via.placeholder.com/1280x1024" alt="Highlighted Image">
+            <div id="home" class="container-fluid">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-auto text">
+                                <h1>António Sousa</h1>
+                                <p>Front-End Ninja</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row feat_work">
+
+                <div id="work" class="row feat_work">
                     <div class="col-12">
                         <h2>Featured Work</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-8 col-sm-6 col-md-4">
+                    <div class="col-xs-8 col-sm-8 col-md-4">
                         <figure>
                             <img src="https://via.placeholder.com/800x600" class="img-fluid rounded mx-auto d-block" alt="First bike">
                             <p class="mycaption">First Image</p>
                         </figure>
                     </div>
-                    <div class="col-xs-8 col-sm-6 col-md-4">
+                    <div class="col-xs-8 col-sm-4 col-md-4">
                         <figure>
                             <img src="https://via.placeholder.com/600x800" class="img-fluid rounded mx-auto d-block" alt="Second Image">
                             <p class="mycaption">Second Image</p>
@@ -70,10 +93,27 @@
                         </figure>
                     </div>
                 </div>
+                <div id="contact" class="row feat_work">
+                    <div class="col-12">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <address>
+                            <strong><span class="glyphicon glyphicon-envelope"></span> Email: </strong><a
+                                href="mailto:amsousa.mail@sapo.pt">amsousa.mail@sapo.pt</a>
+                        </address>
+                    </div>
+                </div>
             </div>
         </main>
 
         <footer>
+            <div class="container-fluid">
+                <hr>
+                <p>António Sousa - 2019</p>
+            </div>
         </footer>
     </div>
 
