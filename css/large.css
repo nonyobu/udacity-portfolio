@@ -22,10 +22,22 @@
 
 .text h2 {
     font-weight: 500;
-    font-size: 2.4em;
+    font-size: 3em;
 }
 
 .text p {
     font-weight: 400;
+    font-size: 1.5em;
+}
+
+
+/*
+*
+*
+* Featured work
+*
+*/
+
+.mycaption {
     font-size: 2em;
 }
